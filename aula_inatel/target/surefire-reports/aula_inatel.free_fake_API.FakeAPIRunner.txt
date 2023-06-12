@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.free_fake_API.FakeAPIRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.063 s - in aula_inatel.free_fake_API.FakeAPIRunner

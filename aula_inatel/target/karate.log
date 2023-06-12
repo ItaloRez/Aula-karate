@@ -1052,3 +1052,1515 @@ classpath:aula_inatel/json_placeholder/json_placeholder.feature:19
 1 < Server: cloudflare
 1 < CF-RAY: 7d6359ab4f5ea5f5-GRU
 {"id":101,"title":"titulo de teste","body":"body de teste2","userId":1}
+14:44:37.582 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:44:38.523 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:44:38.563 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:4
+* def url_base='https://freefakeapi.io/api'
+no step-definition method match found for: def url_base='https://freefakeapi.io/api'
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:4
+14:50:16.997 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:50:18.093 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:50:18.149 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:4
+* def url_base='https://freefakeapi.io/api'
+no step-definition method match found for: def url_base='https://freefakeapi.io/api'
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:4
+14:51:10.329 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:51:11.161 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:51:11.206 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:4
+* def url_base ='https://freefakeapi.io/api'
+no step-definition method match found for: def url_base ='https://freefakeapi.io/api'
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:4
+14:51:50.886 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:51:51.751 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:51:52.359 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:51:52.710 [main] DEBUG com.intuit.karate - response time in milliseconds: 320
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:51:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1681500827
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 2404
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=C%2Bkhw8aPZxIskU1jTY0A3HAqUyvDRfZJDc%2FKcj1UyYWq7Lpj8UfbGFvjgtZv9MdVJLqak%2BuewwCkgwSRl%2BiwbndsWkLRqf7hjpVBTw87CBIX9MBlPNmI7oiKECRqhdcgZe27dC%2BFyNsYoGZteHc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d63f1c51bf001ad-GRU
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+14:52:23.133 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:52:23.921 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:52:24.486 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:52:25.915 [main] DEBUG com.intuit.karate - response time in milliseconds: 1397
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:52:25 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=77ousstf9jplmqcnmtcrbq8v5b; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+14:52:25.953 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:13
+And match each $ contains { username: '#string', id: '#number'}
+match failed: EACH_CONTAINS
+  $ | match each failed at index 0 (LIST:MAP)
+  [{"_links":{"self":{"href":"/api/users/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"/api/users/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"/api/users/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"/api/users/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"/api/users/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"/api/users/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"/api/users/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"/api/users/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"/api/users/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"/api/users/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+  {"username":"#string","id":"#number"}
+
+    $[0] | actual does not contain expected | all key-values did not match, expected has un-matched keys - [id] (MAP:MAP)
+    {"_links":{"self":{"href":"/api/users/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"}
+    {"id":"#number","username":"#string"}
+
+      $[0].id | not a number (STRING:STRING)
+      '1'
+      '#number'
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:13
+14:53:07.105 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:53:07.974 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:08.514 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:09.621 [main] DEBUG com.intuit.karate - response time in milliseconds: 1080
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:53:09 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=i0e3ao79e15su6nbb0lj3clk09; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+14:53:41.393 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:53:42.305 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:53:42.950 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:53:44.004 [main] DEBUG com.intuit.karate - response time in milliseconds: 1024
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:53:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=p7usc6drm1b4cch837o53fti8m; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+14:53:44.021 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:12
+And match $ == '#[11]'
+match failed: EQUALS
+  $ | actual array length is 10 (LIST:STRING)
+  [{"_links":{"self":{"href":"/api/users/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"/api/users/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"/api/users/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"/api/users/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"/api/users/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"/api/users/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"/api/users/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"/api/users/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"/api/users/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"/api/users/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+  '#[11]'
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:12
+14:54:01.789 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:54:02.689 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:03.360 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:04.445 [main] DEBUG com.intuit.karate - response time in milliseconds: 1053
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:54:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=ol2mmfc8utccgu3rd3pfao4n04; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+14:54:04.469 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:12
+And match $ == '#[9]'
+match failed: EQUALS
+  $ | actual array length is 10 (LIST:STRING)
+  [{"_links":{"self":{"href":"/api/users/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"/api/users/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"/api/users/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"/api/users/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"/api/users/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"/api/users/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"/api/users/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"/api/users/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"/api/users/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"/api/users/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+  '#[9]'
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:12
+14:54:18.302 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:54:19.220 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:54:19.870 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:54:21.063 [main] DEBUG com.intuit.karate - response time in milliseconds: 1157
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:54:21 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=nblk52tklq0vqcu4i1ba974u2l; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+14:55:25.011 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:55:25.934 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:55:26.557 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:55:27.647 [main] DEBUG com.intuit.karate - response time in milliseconds: 1039
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:55:27 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=9i84gnef5q7ro4vjd10ai1nhpq; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+14:55:27.716 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:55:27.720 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:55:28.582 [main] DEBUG com.intuit.karate - response time in milliseconds: 861
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:55:28 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=pjpkau11j9chfe9fl5e3b9059r; Domain=freefakeapi.io
+{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"}
+14:56:13.420 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:56:14.245 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:14.810 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:15.871 [main] DEBUG com.intuit.karate - response time in milliseconds: 1036
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:56:15 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=91ak97acgoe8q8a799s9c9m21g; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+14:56:15.927 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:56:15.931 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+14:56:16.797 [main] DEBUG com.intuit.karate - response time in milliseconds: 865
+1 < 200
+1 < Date: Mon, 12 Jun 2023 17:56:16 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=c352fduinfqs51qj491g3n0n64; Domain=freefakeapi.io
+{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"}
+15:00:43.895 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:00:44.851 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:00:45.473 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:00:46.562 [main] DEBUG com.intuit.karate - response time in milliseconds: 1059
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:00:46 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=kgu47s5pig5c7kefesfc2ssj5c; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+15:00:46.616 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:00:46.622 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:00:47.462 [main] DEBUG com.intuit.karate - response time in milliseconds: 839
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:00:47 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=4svlb93u6ifp02n84b76hhh7gk; Domain=freefakeapi.io
+{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"}
+15:00:47.480 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:00:47.486 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/posts
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:00:48.349 [main] DEBUG com.intuit.karate - response time in milliseconds: 848
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:00:47 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=88jj6kucooc1244rre5sta1a9u; Domain=freefakeapi.io
+[{"_links":{"modify":{"href":"\/api\/posts\/1"},"self":{"href":"\/api\/posts\/1"},"delete":{"href":"\/api\/posts\/1"}},"id":"1","title":"Let me explain","user":"\/api\/users\/1","content":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects,","slug":"let-me-explain","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/2"},"self":{"href":"\/api\/posts\/2"},"delete":{"href":"\/api\/posts\/2"}},"id":"2","title":"Far Far Away","user":"\/api\/users\/5","content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary","slug":"far-far-away","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/3"},"self":{"href":"\/api\/posts\/3"},"delete":{"href":"\/api\/posts\/3"}},"id":"3","title":"Captain From The Portal","user":"\/api\/users\/4","content":"Why I say old chap that is spiffing cack some dodgy chav bugger all mate mufty bleeding nancy boy he nicked it haggle bits and bobs in my flat hanky panky brolly lemon squeezy down the pub ruddy wellies mush buggered vagabond spiffing good time blow off baking cakes have it super William so I said blimey arse over tit a butty cheeky bugger Oxford loo arse lost the plot easy peasy cup of char gosh bonnet cockup absolutely bladdered dropped a clanger","slug":"captain-from-the-portal","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/4"},"self":{"href":"\/api\/posts\/4"},"delete":{"href":"\/api\/posts\/4"}},"id":"4","title":"Stranger With Four Eyes","user":"\/api\/users\/8","content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ","slug":"stranger-with-four-eyes","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/5"},"self":{"href":"\/api\/posts\/5"},"delete":{"href":"\/api\/posts\/5"}},"id":"5","title":"Enemies Of Nowhere","user":"\/api\/users\/5","content":"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","slug":"enemies-of-nowhere","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/6"},"self":{"href":"\/api\/posts\/6"},"delete":{"href":"\/api\/posts\/6"}},"id":"6","title":"Creators And Martians","user":"\/api\/users\/7","content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.","slug":"creators-and-martians","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/7"},"self":{"href":"\/api\/posts\/7"},"delete":{"href":"\/api\/posts\/7"}},"id":"7","title":"Hidden By Solar Flares","user":"\/api\/users\/6","content":"Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.","slug":"hidden-by-solar-flares","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/8"},"self":{"href":"\/api\/posts\/8"},"delete":{"href":"\/api\/posts\/8"}},"id":"8","title":"Serenity Of Outer Space","user":"\/api\/users\/10","content":"The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.","slug":"serenity-of-outer-space","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/9"},"self":{"href":"\/api\/posts\/9"},"delete":{"href":"\/api\/posts\/9"}},"id":"9","title":"Officers With Spaceships","user":"\/api\/users\/3","content":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.","slug":"officers-with-spaceships","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/10"},"self":{"href":"\/api\/posts\/10"},"delete":{"href":"\/api\/posts\/10"}},"id":"10","title":"Leaders And Leaders","user":"\/api\/users\/2","content":"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).","slug":"leaders-and-leaders","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/11"},"self":{"href":"\/api\/posts\/11"},"delete":{"href":"\/api\/posts\/11"}},"id":"11","title":"5 Killer Quora Answers on History","user":"\/api\/users\/5","content":"Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.","slug":"5-killer-quoraanswers-on-history","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/12"},"self":{"href":"\/api\/posts\/12"},"delete":{"href":"\/api\/posts\/12"}},"id":"12","title":"History Explained in Fewer than 140 Characters","user":"\/api\/users\/8","content":"Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.","slug":"history-explained-in-fewer-than-140-characters","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/13"},"self":{"href":"\/api\/posts\/13"},"delete":{"href":"\/api\/posts\/13"}},"id":"13","title":"A Step-by-Step Guide to History","user":"\/api\/users\/8","content":"Vel ut exerci meliore luptatum. Explicari omittantur ut qui. Ullum tibique omittam ea ius, no vel zril percipit definiebas. Vidisse aperiri et est.\r\n\r\nSumo oportere ad mea, nam probo aperiri interpretaris cu. Cibo urbanitas mei no. Cum at etiam homero epicurei, ius fugit vocibus iracundia eu. Id sit munere pericula, vim cu autem disputationi. No aperiri similique eos, indoctum sententiae consequuntur vix ut.\r\n","slug":"a-step-by-step-guide-to-history","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/14"},"self":{"href":"\/api\/posts\/14"},"delete":{"href":"\/api\/posts\/14"}},"id":"14","title":"A Computing Success Story You'll Never Believe","user":"\/api\/users\/2","content":"His ad elaboraret mediocritatem, usu graeco fierent democritum ne. Suavitate percipitur conclusionemque eam eu, pertinax salutandi instructior te mel. Usu saepe quando fierent et, ludus euripidis cu nec, eos in soleat consetetur instructior. Vis cu dolore vivendo aliquando, laudem altera eruditi mea no. Iudico nostrud corrumpit vis et, errem facete dissentiet ad cum.","slug":"a-computing-success-story-you-ll-never-believe","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/15"},"self":{"href":"\/api\/posts\/15"},"delete":{"href":"\/api\/posts\/15"}},"id":"15","title":"11 Ways to Completely Revamp Your Computing","user":"\/api\/users\/6","content":"Graece petentium duo ad, quo feugiat deserunt in. Est at case vocibus feugait, errem omnesque appareat ex vim. Nec accusamus persecuti deterruisset id, sapientem ullamcorper ex eum. Eos in habemus albucius, novum inimicus ut cum. Ei atomorum oportere cum. Mei ad choro contentiones.\r\n","slug":"11-ways-to-completely-revamp-your-computing","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/16"},"self":{"href":"\/api\/posts\/16"},"delete":{"href":"\/api\/posts\/16"}},"id":"16","title":"20 Fun Facts About Aviation","user":"\/api\/users\/9","content":"Ut suscipiantur voluptatibus vis. Cu putent prodesset sit, repudiare rationibus quo eu. Ius ne velit maiorum temporibus. Percipit adipiscing pri ut. Nec appellantur definitiones ad, pri at amet gloriatur, adhuc dicam perfecto ut nec. An eum omittantur voluptatibus definitiones, at vel quando iriure, ad pro simul dolores.","slug":"20-fun-facts-about-aviation","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"}]
+15:00:48.369 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:00:48.376 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/posts/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:00:48.973 [main] DEBUG com.intuit.karate - response time in milliseconds: 597
+1 < 429
+1 < Date: Mon, 12 Jun 2023 18:00:48 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Server: o2switch-PowerBoost-v3
+1 < Tiger-Protect-Security: https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect
+1 < Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+1 < Expires: Thu, 01 Jan 1970 00:00:01 GMT
+1 < Access-Control-Allow-Origin: *
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "546f7b17b23a21e97bf609a6f17ed6b0"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 5c4b3995c3e8cb7a84601e070e7d24e0
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "66f22ec5b7cdddcc43644e8f1cfa0c0f"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+15:00:48.976 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:37
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 597, url: https://freefakeapi.io/api/posts/1, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "546f7b17b23a21e97bf609a6f17ed6b0"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 5c4b3995c3e8cb7a84601e070e7d24e0
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "66f22ec5b7cdddcc43644e8f1cfa0c0f"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:37
+15:01:52.439 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:01:53.354 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:01:54.098 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:02:08.671 [main] DEBUG com.intuit.karate - response time in milliseconds: 14541
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:02:07 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=536hs6l8snlf76geghtpc97qps; Domain=freefakeapi.io
+[{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"},{"_links":{"self":{"href":"\/api\/users\/2"}},"session":"1200","id":"2","email":"lori.clark@example.com","username":"LoriClark"},{"_links":{"self":{"href":"\/api\/users\/3"}},"session":"86400","id":"3","email":"edgar.barrett@example.com","username":"EdgarBarrett"},{"_links":{"self":{"href":"\/api\/users\/4"}},"session":"1200","id":"4","email":"kaylee.bradley@example.com","username":"KayleeBradley"},{"_links":{"self":{"href":"\/api\/users\/5"}},"session":"3600","id":"5","email":"krin.carter@example.com","username":"KrinCarter"},{"_links":{"self":{"href":"\/api\/users\/6"}},"session":"2510","id":"6","email":"morris.dixon@example.com","username":"MorrisDixon"},{"_links":{"self":{"href":"\/api\/users\/7"}},"session":"3600","id":"7","email":"hilda.allen@example.com","username":"HildaAllen"},{"_links":{"self":{"href":"\/api\/users\/8"}},"session":"1200","id":"8","email":"ritthy.mitchelle@example.com","username":"RitthyMitchelle"},{"_links":{"self":{"href":"\/api\/users\/9"}},"session":"12400","id":"9","email":"gary.reed@example.com","username":"GaryReed"},{"_links":{"self":{"href":"\/api\/users\/10"}},"session":"1400","id":"10","email":"melinda.king@example.com","username":"MelindaKing"}]
+15:02:08.736 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:02:08.741 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:02:11.948 [main] DEBUG com.intuit.karate - response time in milliseconds: 3207
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:02:09 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=orqtde8m84uicfe7tke9sucl1c; Domain=freefakeapi.io
+{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"}
+15:02:11.974 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:02:11.979 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/posts
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:02:13.877 [main] DEBUG com.intuit.karate - response time in milliseconds: 1898
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:02:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=heunq5c9vgb8bo5opg1p0u62eu; Domain=freefakeapi.io
+[{"_links":{"modify":{"href":"\/api\/posts\/1"},"self":{"href":"\/api\/posts\/1"},"delete":{"href":"\/api\/posts\/1"}},"id":"1","title":"Let me explain","user":"\/api\/users\/1","content":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects,","slug":"let-me-explain","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/2"},"self":{"href":"\/api\/posts\/2"},"delete":{"href":"\/api\/posts\/2"}},"id":"2","title":"Far Far Away","user":"\/api\/users\/5","content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary","slug":"far-far-away","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/3"},"self":{"href":"\/api\/posts\/3"},"delete":{"href":"\/api\/posts\/3"}},"id":"3","title":"Captain From The Portal","user":"\/api\/users\/4","content":"Why I say old chap that is spiffing cack some dodgy chav bugger all mate mufty bleeding nancy boy he nicked it haggle bits and bobs in my flat hanky panky brolly lemon squeezy down the pub ruddy wellies mush buggered vagabond spiffing good time blow off baking cakes have it super William so I said blimey arse over tit a butty cheeky bugger Oxford loo arse lost the plot easy peasy cup of char gosh bonnet cockup absolutely bladdered dropped a clanger","slug":"captain-from-the-portal","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/4"},"self":{"href":"\/api\/posts\/4"},"delete":{"href":"\/api\/posts\/4"}},"id":"4","title":"Stranger With Four Eyes","user":"\/api\/users\/8","content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ","slug":"stranger-with-four-eyes","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/5"},"self":{"href":"\/api\/posts\/5"},"delete":{"href":"\/api\/posts\/5"}},"id":"5","title":"Enemies Of Nowhere","user":"\/api\/users\/5","content":"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","slug":"enemies-of-nowhere","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/6"},"self":{"href":"\/api\/posts\/6"},"delete":{"href":"\/api\/posts\/6"}},"id":"6","title":"Creators And Martians","user":"\/api\/users\/7","content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.","slug":"creators-and-martians","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/7"},"self":{"href":"\/api\/posts\/7"},"delete":{"href":"\/api\/posts\/7"}},"id":"7","title":"Hidden By Solar Flares","user":"\/api\/users\/6","content":"Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.","slug":"hidden-by-solar-flares","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/8"},"self":{"href":"\/api\/posts\/8"},"delete":{"href":"\/api\/posts\/8"}},"id":"8","title":"Serenity Of Outer Space","user":"\/api\/users\/10","content":"The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.","slug":"serenity-of-outer-space","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/9"},"self":{"href":"\/api\/posts\/9"},"delete":{"href":"\/api\/posts\/9"}},"id":"9","title":"Officers With Spaceships","user":"\/api\/users\/3","content":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.","slug":"officers-with-spaceships","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/10"},"self":{"href":"\/api\/posts\/10"},"delete":{"href":"\/api\/posts\/10"}},"id":"10","title":"Leaders And Leaders","user":"\/api\/users\/2","content":"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).","slug":"leaders-and-leaders","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/11"},"self":{"href":"\/api\/posts\/11"},"delete":{"href":"\/api\/posts\/11"}},"id":"11","title":"5 Killer Quora Answers on History","user":"\/api\/users\/5","content":"Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.","slug":"5-killer-quoraanswers-on-history","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/12"},"self":{"href":"\/api\/posts\/12"},"delete":{"href":"\/api\/posts\/12"}},"id":"12","title":"History Explained in Fewer than 140 Characters","user":"\/api\/users\/8","content":"Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.","slug":"history-explained-in-fewer-than-140-characters","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/13"},"self":{"href":"\/api\/posts\/13"},"delete":{"href":"\/api\/posts\/13"}},"id":"13","title":"A Step-by-Step Guide to History","user":"\/api\/users\/8","content":"Vel ut exerci meliore luptatum. Explicari omittantur ut qui. Ullum tibique omittam ea ius, no vel zril percipit definiebas. Vidisse aperiri et est.\r\n\r\nSumo oportere ad mea, nam probo aperiri interpretaris cu. Cibo urbanitas mei no. Cum at etiam homero epicurei, ius fugit vocibus iracundia eu. Id sit munere pericula, vim cu autem disputationi. No aperiri similique eos, indoctum sententiae consequuntur vix ut.\r\n","slug":"a-step-by-step-guide-to-history","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/14"},"self":{"href":"\/api\/posts\/14"},"delete":{"href":"\/api\/posts\/14"}},"id":"14","title":"A Computing Success Story You'll Never Believe","user":"\/api\/users\/2","content":"His ad elaboraret mediocritatem, usu graeco fierent democritum ne. Suavitate percipitur conclusionemque eam eu, pertinax salutandi instructior te mel. Usu saepe quando fierent et, ludus euripidis cu nec, eos in soleat consetetur instructior. Vis cu dolore vivendo aliquando, laudem altera eruditi mea no. Iudico nostrud corrumpit vis et, errem facete dissentiet ad cum.","slug":"a-computing-success-story-you-ll-never-believe","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/15"},"self":{"href":"\/api\/posts\/15"},"delete":{"href":"\/api\/posts\/15"}},"id":"15","title":"11 Ways to Completely Revamp Your Computing","user":"\/api\/users\/6","content":"Graece petentium duo ad, quo feugiat deserunt in. Est at case vocibus feugait, errem omnesque appareat ex vim. Nec accusamus persecuti deterruisset id, sapientem ullamcorper ex eum. Eos in habemus albucius, novum inimicus ut cum. Ei atomorum oportere cum. Mei ad choro contentiones.\r\n","slug":"11-ways-to-completely-revamp-your-computing","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/16"},"self":{"href":"\/api\/posts\/16"},"delete":{"href":"\/api\/posts\/16"}},"id":"16","title":"20 Fun Facts About Aviation","user":"\/api\/users\/9","content":"Ut suscipiantur voluptatibus vis. Cu putent prodesset sit, repudiare rationibus quo eu. Ius ne velit maiorum temporibus. Percipit adipiscing pri ut. Nec appellantur definitiones ad, pri at amet gloriatur, adhuc dicam perfecto ut nec. An eum omittantur voluptatibus definitiones, at vel quando iriure, ad pro simul dolores.","slug":"20-fun-facts-about-aviation","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"}]
+15:02:13.898 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:02:13.904 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/posts/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:02:16.718 [main] DEBUG com.intuit.karate - response time in milliseconds: 2808
+1 < 429
+1 < Date: Mon, 12 Jun 2023 18:02:16 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Server: o2switch-PowerBoost-v3
+1 < Tiger-Protect-Security: https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect
+1 < Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+1 < Expires: Thu, 01 Jan 1970 00:00:01 GMT
+1 < Access-Control-Allow-Origin: *
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7a685d10d20b50a52fd05d34f81871f3"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 57956ea9d49ae4938dc3f8e8d66bfd0c
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "a30f04fb2fcf46eba474bc112c2b8746"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+15:02:16.718 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:37
+Then status 200
+status code was: 429, expected: 200, response time in milliseconds: 2808, url: https://freefakeapi.io/api/posts/1, response: 
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "7a685d10d20b50a52fd05d34f81871f3"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+  <meta name="robots" content="noindex" />
+  <meta name="retry-after" content="240" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link id="favicon" rel="shortcut icon" type="image/svg+xml" href="https://o2swit.ch/assets/favicon.svg"/>
+  <link href="https://o2swit.ch/assets/style.css" rel="stylesheet">
+
+  <title>HTTP 429</title>
+</head>
+<body>
+<table width="100%" height="100%" cellpadding="20">
+  <tr>
+    <td align="center" valign="middle">
+      <div class="o2s-browser-check">
+        <div id="o2s-content">
+          <h1>
+            
+              <i class="fas fa-hand-paper"></i>
+            
+            HTTP 429<br/>
+            <small data-i18n-key="title">
+              
+                Ralentissez
+              
+            </small>
+          </h1>
+
+          <p style="margin-top:2em;" data-i18n-key="lead">
+            
+              Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+              tentatives d'accès détecté (Rate-limit). <br/>
+              Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+            
+          </p>
+
+          
+
+          
+            <p style="margin-top:1em;"> 
+              <span style="text-decoration:  none;"><i class="fas fa-external-link-alt"></i> </span>
+              <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">
+                <span data-i18n-key="link">
+                  Comment gérer cette sécurité avec TigerProtect dans cPanel ?
+                </span>
+              </a>
+            </p>
+          
+
+
+          
+
+        </div>
+      </div>
+
+      
+      <div>
+        <img id="img" width="250" src="https://o2swit.ch/assets/tiger.svg" />
+        <br/><br/>
+        <small>
+          <a href="https://www.o2switch.fr" target="_blank">support@o2switch.fr</a>
+          -
+          <a href="https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect" target="_blank">Tiger Protect</a> <br/>
+          <strong>Request ID </strong>: 57956ea9d49ae4938dc3f8e8d66bfd0c
+        </small>
+        <br>
+      </div>
+
+      
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+      const supportedLocales = ["en", "fr"];
+      const translations = {
+          "en": {
+              "title": `
+                  
+                    Slow down
+                  
+              `,
+              "lead": `
+                
+                  This request was blocked by a security enabled on the hosting account, following too many
+                  access attempts detected (Rate-limited).<br/>
+                  If you are the webmaster of this site, you can disable this security from your cPanel account.
+                
+              `,
+              "link": "How to manage this security with the Tiger Protect Tool on cPanel ?", 
+              "rule" : "Name of the security rule triggered"
+          },
+          "fr": {
+              "title": `
+                
+                  Ralentissez
+                              
+              `,
+              "lead": `
+                  
+                    Cette requête a été bloquée par une sécurité activée sur l'hébergement, suite à de trop nombreuses
+                    tentatives d'accès détecté (Rate-limit). <br/>
+                    Si vous êtes le webmaster de ce site, vous pouvez désactiver cette sécurité depuis votre compte cPanel.
+                  
+              `,
+              "link": "Comment gérer cette sécurité avec TigerProtect dans cPanel ?", 
+              "rule" : "Nom de la règle de sécurité déclenchée"
+          },
+      };
+      function browserLocales(languageCodeOnly = false) {
+          return navigator.languages.map((locale) =>
+              languageCodeOnly ? locale.split("-")[0] : locale,
+          );
+      }
+      function isSupported(locale) {
+          return supportedLocales.indexOf(locale) > -1;
+      }
+      function supportedOrDefault(locales) {
+          return locales.find(isSupported) || 'en';
+      }
+      const locale = supportedOrDefault(browserLocales(true));
+
+      document.querySelectorAll("[data-i18n-key]").forEach(function(element) {
+              const key = element.getAttribute("data-i18n-key");
+              const translation = translations[locale][key];
+              element.innerHTML = translation;
+          }
+      );
+    });
+  </script>
+</body>
+</html>
+
+<!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "a30f04fb2fcf46eba474bc112c2b8746"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug-->
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:37
+15:04:01.871 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:04:02.799 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:04:03.380 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:04:40.148 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 37303 milliseconds for url: https://freefakeapi.io/api/users
+15:04:40.148 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:10
+When method get
+http call failed after 37303 milliseconds for url: https://freefakeapi.io/api/users
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:10
+15:04:40.183 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:04:40.190 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/users/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:04:41.075 [main] DEBUG com.intuit.karate - response time in milliseconds: 868
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:04:40 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=pna90e45tr1vqi2p7a0ghugdhu; Domain=freefakeapi.io
+{"_links":{"self":{"href":"\/api\/users\/1"}},"session":"3600","id":"1","email":"mike.payne@example.com","username":"MikePayne"}
+15:04:41.130 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:04:41.134 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/posts
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:04:42.014 [main] DEBUG com.intuit.karate - response time in milliseconds: 880
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:04:41 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=3qd93uqpfc66t6bbd5l4i292c0; Domain=freefakeapi.io
+[{"_links":{"modify":{"href":"\/api\/posts\/1"},"self":{"href":"\/api\/posts\/1"},"delete":{"href":"\/api\/posts\/1"}},"id":"1","title":"Let me explain","user":"\/api\/users\/1","content":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects,","slug":"let-me-explain","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/2"},"self":{"href":"\/api\/posts\/2"},"delete":{"href":"\/api\/posts\/2"}},"id":"2","title":"Far Far Away","user":"\/api\/users\/5","content":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary","slug":"far-far-away","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/3"},"self":{"href":"\/api\/posts\/3"},"delete":{"href":"\/api\/posts\/3"}},"id":"3","title":"Captain From The Portal","user":"\/api\/users\/4","content":"Why I say old chap that is spiffing cack some dodgy chav bugger all mate mufty bleeding nancy boy he nicked it haggle bits and bobs in my flat hanky panky brolly lemon squeezy down the pub ruddy wellies mush buggered vagabond spiffing good time blow off baking cakes have it super William so I said blimey arse over tit a butty cheeky bugger Oxford loo arse lost the plot easy peasy cup of char gosh bonnet cockup absolutely bladdered dropped a clanger","slug":"captain-from-the-portal","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/4"},"self":{"href":"\/api\/posts\/4"},"delete":{"href":"\/api\/posts\/4"}},"id":"4","title":"Stranger With Four Eyes","user":"\/api\/users\/8","content":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ","slug":"stranger-with-four-eyes","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/5"},"self":{"href":"\/api\/posts\/5"},"delete":{"href":"\/api\/posts\/5"}},"id":"5","title":"Enemies Of Nowhere","user":"\/api\/users\/5","content":"It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","slug":"enemies-of-nowhere","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/6"},"self":{"href":"\/api\/posts\/6"},"delete":{"href":"\/api\/posts\/6"}},"id":"6","title":"Creators And Martians","user":"\/api\/users\/7","content":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.","slug":"creators-and-martians","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/7"},"self":{"href":"\/api\/posts\/7"},"delete":{"href":"\/api\/posts\/7"}},"id":"7","title":"Hidden By Solar Flares","user":"\/api\/users\/6","content":"Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.","slug":"hidden-by-solar-flares","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/8"},"self":{"href":"\/api\/posts\/8"},"delete":{"href":"\/api\/posts\/8"}},"id":"8","title":"Serenity Of Outer Space","user":"\/api\/users\/10","content":"The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.","slug":"serenity-of-outer-space","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/9"},"self":{"href":"\/api\/posts\/9"},"delete":{"href":"\/api\/posts\/9"}},"id":"9","title":"Officers With Spaceships","user":"\/api\/users\/3","content":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.","slug":"officers-with-spaceships","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/10"},"self":{"href":"\/api\/posts\/10"},"delete":{"href":"\/api\/posts\/10"}},"id":"10","title":"Leaders And Leaders","user":"\/api\/users\/2","content":"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).","slug":"leaders-and-leaders","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/11"},"self":{"href":"\/api\/posts\/11"},"delete":{"href":"\/api\/posts\/11"}},"id":"11","title":"5 Killer Quora Answers on History","user":"\/api\/users\/5","content":"Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.","slug":"5-killer-quoraanswers-on-history","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/12"},"self":{"href":"\/api\/posts\/12"},"delete":{"href":"\/api\/posts\/12"}},"id":"12","title":"History Explained in Fewer than 140 Characters","user":"\/api\/users\/8","content":"Te altera melius pro. Te ius enim vituperata, usu audiam corpora offendit te. No sit tale eius soleat, fastidii legendos sit ne. Nec ferri adolescens accommodare ei.\r\n\r\nVeniam inciderint mei ea. Qui decore timeam ponderum id. Eum cu esse diceret, ea congue admodum voluptua pri. Pri eu molestie deserunt philosophia, civibus mandamus et eum. Ei vim saepe prompta platonem, eum tacimates assentior eu. Pri dicunt expetendis ne, vim ad minim vivendum, per eius scaevola te.","slug":"history-explained-in-fewer-than-140-characters","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/13"},"self":{"href":"\/api\/posts\/13"},"delete":{"href":"\/api\/posts\/13"}},"id":"13","title":"A Step-by-Step Guide to History","user":"\/api\/users\/8","content":"Vel ut exerci meliore luptatum. Explicari omittantur ut qui. Ullum tibique omittam ea ius, no vel zril percipit definiebas. Vidisse aperiri et est.\r\n\r\nSumo oportere ad mea, nam probo aperiri interpretaris cu. Cibo urbanitas mei no. Cum at etiam homero epicurei, ius fugit vocibus iracundia eu. Id sit munere pericula, vim cu autem disputationi. No aperiri similique eos, indoctum sententiae consequuntur vix ut.\r\n","slug":"a-step-by-step-guide-to-history","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/14"},"self":{"href":"\/api\/posts\/14"},"delete":{"href":"\/api\/posts\/14"}},"id":"14","title":"A Computing Success Story You'll Never Believe","user":"\/api\/users\/2","content":"His ad elaboraret mediocritatem, usu graeco fierent democritum ne. Suavitate percipitur conclusionemque eam eu, pertinax salutandi instructior te mel. Usu saepe quando fierent et, ludus euripidis cu nec, eos in soleat consetetur instructior. Vis cu dolore vivendo aliquando, laudem altera eruditi mea no. Iudico nostrud corrumpit vis et, errem facete dissentiet ad cum.","slug":"a-computing-success-story-you-ll-never-believe","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/15"},"self":{"href":"\/api\/posts\/15"},"delete":{"href":"\/api\/posts\/15"}},"id":"15","title":"11 Ways to Completely Revamp Your Computing","user":"\/api\/users\/6","content":"Graece petentium duo ad, quo feugiat deserunt in. Est at case vocibus feugait, errem omnesque appareat ex vim. Nec accusamus persecuti deterruisset id, sapientem ullamcorper ex eum. Eos in habemus albucius, novum inimicus ut cum. Ei atomorum oportere cum. Mei ad choro contentiones.\r\n","slug":"11-ways-to-completely-revamp-your-computing","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"},{"_links":{"modify":{"href":"\/api\/posts\/16"},"self":{"href":"\/api\/posts\/16"},"delete":{"href":"\/api\/posts\/16"}},"id":"16","title":"20 Fun Facts About Aviation","user":"\/api\/users\/9","content":"Ut suscipiantur voluptatibus vis. Cu putent prodesset sit, repudiare rationibus quo eu. Ius ne velit maiorum temporibus. Percipit adipiscing pri ut. Nec appellantur definitiones ad, pri at amet gloriatur, adhuc dicam perfecto ut nec. An eum omittantur voluptatibus definitiones, at vel quando iriure, ad pro simul dolores.","slug":"20-fun-facts-about-aviation","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"}]
+15:04:42.251 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:04:42.257 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/posts/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:04:43.128 [main] DEBUG com.intuit.karate - response time in milliseconds: 871
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:04:42 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=n48g4bkkjcgqd0d0hev6o6sgto; Domain=freefakeapi.io
+{"_links":{"modify":{"href":"\/api\/posts\/1"},"self":{"href":"\/api\/posts\/1"},"delete":{"href":"\/api\/posts\/1"}},"id":"1","title":"Let me explain","user":"\/api\/users\/1","content":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects,","slug":"let-me-explain","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"}
+15:11:31.021 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:11:31.929 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:11:32.527 [main] DEBUG com.intuit.karate - request:
+1 > GET https://freefakeapi.io/api/posts/1
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:11:33.701 [main] DEBUG com.intuit.karate - response time in milliseconds: 1142
+1 < 200
+1 < Date: Mon, 12 Jun 2023 18:11:33 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=cskvui9gdfv3a5i69qnouob7le; Domain=freefakeapi.io
+{"_links":{"modify":{"href":"\/api\/posts\/1"},"self":{"href":"\/api\/posts\/1"},"delete":{"href":"\/api\/posts\/1"}},"id":"1","title":"Let me explain","user":"\/api\/users\/1","content":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects,","slug":"let-me-explain","picture":"https:\/\/fakeimg.pl\/350x200\/?text=FreeFakeAPI"}
+15:15:11.585 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:15:12.588 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:15:12.629 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:5
+* * def request_json = read('json.json')
+no step-definition method match found for: * def request_json = read('json.json')
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:5
+15:15:32.918 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:15:33.716 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:15:34.432 [main] DEBUG com.intuit.karate - request:
+1 > POST https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+
+15:15:35.579 [main] DEBUG com.intuit.karate - response time in milliseconds: 1140
+1 < 201
+1 < Date: Mon, 12 Jun 2023 18:15:35 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: DELETE
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=44fg5kttr7rjlg7rr0m2npmm8f; Domain=freefakeapi.io
+{"_links":{"modify":{"href":"\/api\/posts\/93"},"self":{"href":"\/api\/posts\/93"},"delete":{"href":"\/api\/posts\/93"}},"id":93,"title":"This is the title","user":"\/api\/users\/5","content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+15:15:35.595 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:49
+And match $ contains request_json
+match failed: CONTAINS
+  $ | actual does not contain expected | all key-values did not match, expected has un-matched keys - [user] (MAP:MAP)
+  {"_links":{"modify":{"href":"/api/posts/93"},"self":{"href":"/api/posts/93"},"delete":{"href":"/api/posts/93"}},"id":93,"title":"This is the title","user":"/api/users/5","content":"This is the post content","slug":"this-is-the-slug","picture":"https://path.to/picture.jpg"}
+  {"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug","picture":"https://path.to/picture.jpg"}
+
+    $.user | data types don't match (STRING:NUMBER)
+    '/api/users/5'
+    5
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:49
+15:17:14.495 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:17:15.456 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:17:16.142 [main] DEBUG com.intuit.karate - request:
+1 > POST https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+
+15:17:17.236 [main] DEBUG com.intuit.karate - response time in milliseconds: 1087
+1 < 201
+1 < Date: Mon, 12 Jun 2023 18:17:16 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: DELETE
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=cmkrckpao320u7b944unhfqal8; Domain=freefakeapi.io
+{"_links":{"modify":{"href":"\/api\/posts\/116"},"self":{"href":"\/api\/posts\/116"},"delete":{"href":"\/api\/posts\/116"}},"id":116,"title":"This is the title","user":"\/api\/users\/5","content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+15:17:17.254 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:50
+And match $ contains { id: '#string', title: '#string', user: '#string'}
+match failed: CONTAINS
+  $ | actual does not contain expected | all key-values did not match, expected has un-matched keys - [id] (MAP:MAP)
+  {"_links":{"modify":{"href":"/api/posts/116"},"self":{"href":"/api/posts/116"},"delete":{"href":"/api/posts/116"}},"id":116,"title":"This is the title","user":"/api/users/5","content":"This is the post content","slug":"this-is-the-slug","picture":"https://path.to/picture.jpg"}
+  {"id":"#string","title":"#string","user":"#string"}
+
+    $.id | not a string (NUMBER:STRING)
+    116
+    '#string'
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:50
+15:18:17.211 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:18:18.177 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:18:18.892 [main] DEBUG com.intuit.karate - request:
+1 > POST https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+
+15:18:20.009 [main] DEBUG com.intuit.karate - response time in milliseconds: 1110
+1 < 201
+1 < Date: Mon, 12 Jun 2023 18:18:19 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: DELETE
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=e05jlpcb503nuefpmqulpn4mvj; Domain=freefakeapi.io
+{"_links":{"modify":{"href":"\/api\/posts\/45"},"self":{"href":"\/api\/posts\/45"},"delete":{"href":"\/api\/posts\/45"}},"id":45,"title":"This is the title","user":"\/api\/users\/5","content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+15:19:40.725 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:19:41.540 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:19:42.167 [main] DEBUG com.intuit.karate - request:
+1 > POST https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug"}
+
+15:19:42.952 [main] DEBUG com.intuit.karate - response time in milliseconds: 770
+1 < 400
+1 < Date: Mon, 12 Jun 2023 18:19:42 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=p04thdc1n43hgijmolqo42516r; Domain=freefakeapi.io
+{"message":"Incomplete data"}
+15:19:42.972 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:61
+And match $ contains { error: '#string'}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual does not contain key - 'error' (MAP:MAP)
+  {"message":"Incomplete data"}
+  {"error":"#string"}
+
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:61
+15:20:25.520 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:20:26.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:20:26.933 [main] DEBUG com.intuit.karate - request:
+1 > POST https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug"}
+
+15:20:27.812 [main] DEBUG com.intuit.karate - response time in milliseconds: 863
+1 < 400
+1 < Date: Mon, 12 Jun 2023 18:20:27 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=uc03n8rstptlctqnckq53svb2c; Domain=freefakeapi.io
+{"message":"Incomplete data"}
+15:23:03.294 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:23:04.135 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:04.741 [main] DEBUG com.intuit.karate - request:
+1 > POST https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug"}
+
+15:23:05.506 [main] DEBUG com.intuit.karate - response time in milliseconds: 760
+1 < 400
+1 < Date: Mon, 12 Jun 2023 18:23:05 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=rrqmfjfplodg39tmvravbqbkbn; Domain=freefakeapi.io
+{"message":"Incomplete data"}
+15:23:05.538 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:05.548 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+
+15:23:06.204 [main] DEBUG com.intuit.karate - response time in milliseconds: 656
+1 < 400
+1 < Date: Mon, 12 Jun 2023 18:23:06 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: PUT
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=n1lani3htb0meo8b9a6gcl7lt7; Domain=freefakeapi.io
+{"message":"Incomplete data, all resource data must be in request body"}
+15:23:06.208 [main] ERROR com.intuit.karate - classpath:aula_inatel/free_fake_API/free_fake_API.feature:72
+And match $ contains { message: 'Incomplete data'}
+match failed: CONTAINS
+  $ | actual does not contain expected | all key-values did not match, expected has un-matched keys - [message] (MAP:MAP)
+  {"message":"Incomplete data, all resource data must be in request body"}
+  {"message":"Incomplete data"}
+
+    $.message | not equal (STRING:STRING)
+    'Incomplete data, all resource data must be in request body'
+    'Incomplete data'
+
+classpath:aula_inatel/free_fake_API/free_fake_API.feature:72
+15:23:44.338 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:23:45.149 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:45.794 [main] DEBUG com.intuit.karate - request:
+1 > POST https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 101
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug"}
+
+15:23:46.607 [main] DEBUG com.intuit.karate - response time in milliseconds: 813
+1 < 400
+1 < Date: Mon, 12 Jun 2023 18:23:46 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: POST
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=n325oa3ouh4691b7rc1s4ng8vf; Domain=freefakeapi.io
+{"message":"Incomplete data"}
+15:23:46.643 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:23:46.653 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://freefakeapi.io/api/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: freefakeapi.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.19)
+1 > Accept-Encoding: gzip,deflate
+{"title":"This is the title","user":5,"content":"This is the post content","slug":"this-is-the-slug","picture":"https:\/\/path.to\/picture.jpg"}
+
+15:23:47.297 [main] DEBUG com.intuit.karate - response time in milliseconds: 643
+1 < 400
+1 < Date: Mon, 12 Jun 2023 18:23:47 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: PHP/8.1.18
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Cache-Control: no-store, no-cache, must-revalidate
+1 < Pragma: no-cache
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: PUT
+1 < Access-Control-Allow-Headers: Authorization, Content-Type
+1 < Server: o2switch-PowerBoost-v3
+1 < Set-Cookie: PHPSESSID=3eai86kj9ri505f12r9ovhint5; Domain=freefakeapi.io
+{"message":"Incomplete data, all resource data must be in request body"}
